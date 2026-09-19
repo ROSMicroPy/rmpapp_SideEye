@@ -1,0 +1,11 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-05042017-118861";"";
+"REFERENCE";"AXK 4565";"";
+"TraceParts.PartVersion";"1.1.9";"";
+"TraceParts.InstanceId";"10-05042017-11886175103Y6RJS70V5RP0G2PS9F4Z";"";
+"TraceParts.PartTitle";"Needle roller thrust bearings, needle roller and cage thrust assemblies";"";
+"SUPPLIER";"SKF";"";
+"DESIGN";"Needle roller thrust bearings, needle roller and cage thrust assemblies, Bore Ø 45 mm, Outside Ø 65 mm";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"MASS";"0.018";"";
