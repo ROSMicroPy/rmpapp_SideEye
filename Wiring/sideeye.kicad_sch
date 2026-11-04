@@ -1,0 +1,559 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f5c2a4d7-5a15-4583-b1e5-94f0d73ba681")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SideEye_Wiring:XIAO_ESP32S3_14pin"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -18.288 14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO_ESP32S3_14pin"
+				(at -8.382 12.446 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP"
+				(at 4.318 -29.972 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XIAO_ESP32S3_14pin_0_1"
+				(rectangle
+					(start -19.05 5.08)
+					(end 19.05 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XIAO_ESP32S3_14pin_1_0"
+				(pin passive line
+					(at -21.59 1.27 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -2.54 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -6.35 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -10.16 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -13.97 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -17.78 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -21.59 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -21.59 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -17.78 180)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -13.97 180)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -10.16 180)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -6.35 180)
+					(length 2.54)
+					(name "3V3_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 1.27 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			
+			(embedded_fonts no)
+		)
+	
+(symbol "SideEye_Wiring:Servo_5V" (pin_names (offset 1.016)) (in_bom yes) (on_board no) (property "Reference" "J" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "Servo_5V" (at 0 1.27 0) (effects (font (size 1.27 1.27)) )) (symbol "Servo_5V_0_1" (rectangle (start 0 0) (end 25.4 -15.24) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "Servo_5V_1_1" (pin passive line (at -5.08 -3.81 0) (length 5.08) (name "PWM" (effects (font (size 1.27 1.27)) )) (number "PWM" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -7.62 0) (length 5.08) (name "+5V" (effects (font (size 1.27 1.27)) )) (number "+5V" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -11.43 0) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)) )) (number "GND" (effects (font (size 0.8 0.8)) (hide yes))))))
+(symbol "SideEye_Wiring:VL53L7CX_Module" (pin_names (offset 1.016)) (in_bom yes) (on_board no) (property "Reference" "J" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "VL53L7CX_Module" (at 0 1.27 0) (effects (font (size 1.27 1.27)) )) (symbol "VL53L7CX_Module_0_1" (rectangle (start 0 0) (end 25.4 -22.86) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "VL53L7CX_Module_1_1" (pin passive line (at -5.08 -3.81 0) (length 5.08) (name "3V3" (effects (font (size 1.27 1.27)) )) (number "3V3" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -7.62 0) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)) )) (number "GND" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -11.43 0) (length 5.08) (name "SDA" (effects (font (size 1.27 1.27)) )) (number "SDA" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -15.24 0) (length 5.08) (name "SCL" (effects (font (size 1.27 1.27)) )) (number "SCL" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -19.05 0) (length 5.08) (name "LPn" (effects (font (size 1.27 1.27)) )) (number "LPn" (effects (font (size 0.8 0.8)) (hide yes))))))
+(symbol "SideEye_Wiring:Servo_Supply" (pin_names (offset 1.016)) (in_bom yes) (on_board no) (property "Reference" "J" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "Servo_Supply" (at 0 1.27 0) (effects (font (size 1.27 1.27)) )) (symbol "Servo_Supply_0_1" (rectangle (start 0 0) (end 25.4 -11.43) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "Servo_Supply_1_1" (pin passive line (at -5.08 -3.81 0) (length 5.08) (name "+5V" (effects (font (size 1.27 1.27)) )) (number "+5V" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -7.62 0) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)) )) (number "GND" (effects (font (size 0.8 0.8)) (hide yes))))))
+(symbol "SideEye_Wiring:Grove_Vision_AI_V2_UART" (pin_names (offset 1.016)) (in_bom yes) (on_board no) (property "Reference" "J" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (property "Value" "Grove_Vision_AI_V2_UART" (at 0 1.27 0) (effects (font (size 1.27 1.27)))) (symbol "Grove_Vision_AI_V2_UART_0_1" (rectangle (start 0 0) (end 43.18 -19.05) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "Grove_Vision_AI_V2_UART_1_1" (pin passive line (at -5.08 -3.81 0) (length 5.08) (name "5V IN / M1.14" (effects (font (size 1.016 1.016)))) (number "14" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -7.62 0) (length 5.08) (name "GND / M1.13" (effects (font (size 1.016 1.016)))) (number "13" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -11.43 0) (length 5.08) (name "WE2 RX / M1.7" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 0.8 0.8)) (hide yes)))) (pin passive line (at -5.08 -15.24 0) (length 5.08) (name "WE2 TX / M1.8" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 0.8 0.8)) (hide yes))))))
+)
+	(symbol
+		(lib_id "SideEye_Wiring:XIAO_ESP32S3_14pin")
+		(at 137.16 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dc1a16b-8d63-4c45-8889-28e58b49b55f")
+		(property "Reference" "U1"
+			(at 144.3833 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO ESP32-S3 (14-pin)"
+			(at 144.3833 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP"
+			(at 141.478 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		
+		(pin "13"
+			(uuid "e86cb0d7-fe76-4df6-9c07-581eab1838a0")
+		)
+		
+		
+		
+		
+		
+		
+		(pin "14"
+			(uuid "fd292c5c-e32a-4bf4-b9f8-f34fc76fb8db")
+		)
+		
+		(pin "5"
+			(uuid "36abd9f9-6351-46b2-9a2e-fdfc6a916e02")
+		)
+		
+		(pin "10"
+			(uuid "1cecd27e-1db3-4a5b-bb18-49201427a3f8")
+		)
+		(pin "11"
+			(uuid "b8621dc9-8397-4780-88a8-78d47b90841d")
+		)
+		(pin "9"
+			(uuid "60aa1250-8a13-4a44-8a1d-16c8f530dad5")
+		)
+		(pin "3"
+			(uuid "b20f0543-4401-45b9-874f-d57111d7be79")
+		)
+		(pin "12"
+			(uuid "7ff9c948-6515-4c7e-9949-2e2f97501d35")
+		)
+		(pin "4"
+			(uuid "a58532e3-783b-4e58-b76c-af2003a42709")
+		)
+		(pin "8"
+			(uuid "317f57bb-f405-4b1c-9a14-6399e241c786")
+		)
+		
+		
+		(pin "1"
+			(uuid "2f230046-84ad-4c8a-a58c-743be3b91cd7")
+		)
+		(pin "6"
+			(uuid "af9a6a7b-af31-4374-b9b4-bf88859d2599")
+		)
+		(pin "7"
+			(uuid "42135748-d102-413f-a467-c574834c464d")
+		)
+		(pin "2"
+			(uuid "280cbf8f-aa6c-4929-b421-ea572156decb")
+		)
+		(instances
+			(project "sideeye"
+				(path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+
+(symbol (lib_id "SideEye_Wiring:Servo_5V") (at 66.04 43.18 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid "3ebe57dc-cf5a-4589-bead-6db0a9671f8f") (property "Reference" "J1" (at 78.74000000000001 36.83 0) (effects (font (size 1.27 1.27)) )) (property "Value" "SERVO 1 / 5 V" (at 78.74000000000001 40.64 0) (effects (font (size 1.27 1.27)) )) (instances (project "sideeye" (path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681" (reference "J1") (unit 1)))))
+(wire (pts (xy 45.7200 46.9900) (xy 60.9600 46.9900)) (stroke (width 0) (type default)) (uuid "258993b9-e6d4-4168-a56e-d007cadd0c5b"))
+(label "SERVO1_PWM" (at 45.7200 46.9900 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "38362259-8936-434a-9e61-3e12914b441e"))
+(wire (pts (xy 45.7200 50.8000) (xy 60.9600 50.8000)) (stroke (width 0) (type default)) (uuid "29f651b5-3174-4c30-899c-7513fbcb57e0"))
+(label "+5V_USB" (at 45.7200 50.8000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "7bab752c-f242-4e14-b552-4f9674469cbf"))
+(wire (pts (xy 45.7200 54.6100) (xy 60.9600 54.6100)) (stroke (width 0) (type default)) (uuid "baf26be1-ded0-4d8d-ac8b-01003602f3ba"))
+(label "GND" (at 45.7200 54.6100 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "79b0acd2-2473-402d-bd7c-16e175fbc593"))
+(symbol (lib_id "SideEye_Wiring:Servo_5V") (at 66.04 71.12 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid "adddef95-2dec-4055-823f-d4b81dca8c79") (property "Reference" "J2" (at 78.74000000000001 64.77000000000001 0) (effects (font (size 1.27 1.27)) )) (property "Value" "SERVO 2 / 5 V" (at 78.74000000000001 68.58 0) (effects (font (size 1.27 1.27)) )) (instances (project "sideeye" (path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681" (reference "J2") (unit 1)))))
+(wire (pts (xy 45.7200 74.9300) (xy 60.9600 74.9300)) (stroke (width 0) (type default)) (uuid "ed4fb3ca-c755-4889-b2df-792b3650a463"))
+(label "SERVO2_PWM" (at 45.7200 74.9300 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "4029c626-132e-4fa8-a93e-56ce396834b3"))
+(wire (pts (xy 45.7200 78.7400) (xy 60.9600 78.7400)) (stroke (width 0) (type default)) (uuid "57872032-42df-4862-ab43-29c2957aeb5d"))
+(label "+5V_USB" (at 45.7200 78.7400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "42672034-a137-4b78-930f-44c3992165ec"))
+(wire (pts (xy 45.7200 82.5500) (xy 60.9600 82.5500)) (stroke (width 0) (type default)) (uuid "3a3d116c-2eaf-40ac-b6f6-0ab1ff69f86a"))
+(label "GND" (at 45.7200 82.5500 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "5d4dc576-50a6-48e7-8821-785918dbd1f8"))
+(symbol (lib_id "SideEye_Wiring:VL53L7CX_Module") (at 226.06 43.18 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid "d1912c7d-07ee-4111-8cba-0129121026f5") (property "Reference" "J3" (at 238.76 36.83 0) (effects (font (size 1.27 1.27)) )) (property "Value" "VL53L7CX / SENSOR 1" (at 238.76 40.64 0) (effects (font (size 1.27 1.27)) )) (instances (project "sideeye" (path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681" (reference "J3") (unit 1)))))
+(wire (pts (xy 205.7400 46.9900) (xy 220.9800 46.9900)) (stroke (width 0) (type default)) (uuid "d4e00367-b86a-4d95-81e1-8346b89d56ff"))
+(label "+3V3" (at 205.7400 46.9900 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "97d639ac-a426-4c9f-b940-b9f170bdecc4"))
+(wire (pts (xy 205.7400 50.8000) (xy 220.9800 50.8000)) (stroke (width 0) (type default)) (uuid "47886f29-7970-4558-9308-500e95e06db8"))
+(label "GND" (at 205.7400 50.8000 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "4187453c-576a-44b5-8aa5-c9b5012df940"))
+(wire (pts (xy 205.7400 54.6100) (xy 220.9800 54.6100)) (stroke (width 0) (type default)) (uuid "64c2b06c-df69-4c83-bb28-ccb184596720"))
+(label "I2C_SDA" (at 205.7400 54.6100 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "d1c00df8-2816-43a9-9810-ad7fb5ed4a78"))
+(wire (pts (xy 205.7400 58.4200) (xy 220.9800 58.4200)) (stroke (width 0) (type default)) (uuid "199b9938-dbdd-45d5-bb82-1755cda73527"))
+(label "I2C_SCL" (at 205.7400 58.4200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "57bde7f6-3908-4601-a98f-d499a490014f"))
+(wire (pts (xy 205.7400 62.2300) (xy 220.9800 62.2300)) (stroke (width 0) (type default)) (uuid "b760ee9d-f059-4bb9-8197-98426a12610c"))
+(label "SENSOR1_LPn" (at 205.7400 62.2300 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "1ba0b7fc-f7d4-4c48-acba-b2f20e9dd129"))
+(symbol (lib_id "SideEye_Wiring:VL53L7CX_Module") (at 226.06 83.82 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid "2045eafd-06c5-493b-8d04-e2e5a2e9e739") (property "Reference" "J4" (at 238.76 77.47 0) (effects (font (size 1.27 1.27)) )) (property "Value" "VL53L7CX / SENSOR 2" (at 238.76 81.27999999999999 0) (effects (font (size 1.27 1.27)) )) (instances (project "sideeye" (path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681" (reference "J4") (unit 1)))))
+(wire (pts (xy 205.7400 87.6300) (xy 220.9800 87.6300)) (stroke (width 0) (type default)) (uuid "01b3bd4b-fd19-4805-8a67-44e6f59227ba"))
+(label "+3V3" (at 205.7400 87.6300 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "3ad64578-93d0-4b1b-a3e0-f9c755f3e5ec"))
+(wire (pts (xy 205.7400 91.4400) (xy 220.9800 91.4400)) (stroke (width 0) (type default)) (uuid "f2ac9939-6506-4962-b7cf-f480362f465b"))
+(label "GND" (at 205.7400 91.4400 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "e9c5ac63-dc97-4f93-822e-27141a67c802"))
+(wire (pts (xy 205.7400 95.2500) (xy 220.9800 95.2500)) (stroke (width 0) (type default)) (uuid "c8cbbac3-13af-4051-9c28-fa75abff3fb9"))
+(label "I2C_SDA" (at 205.7400 95.2500 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "88053ba1-91f2-45f2-b447-e9d3ce8ca925"))
+(wire (pts (xy 205.7400 99.0600) (xy 220.9800 99.0600)) (stroke (width 0) (type default)) (uuid "477db9a5-e2c3-43b9-80c2-c1809edddb3b"))
+(label "I2C_SCL" (at 205.7400 99.0600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "f2849b65-241e-45d0-8865-990f6828eb28"))
+(wire (pts (xy 205.7400 102.8700) (xy 220.9800 102.8700)) (stroke (width 0) (type default)) (uuid "767f553a-0df8-4f61-b2cc-685456288b28"))
+(label "SENSOR2_LPn" (at 205.7400 102.8700 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "f32833cc-aac2-4f0a-8acd-e8361106f314"))
+(wire (pts (xy 96.5200 80.0100) (xy 115.5700 80.0100)) (stroke (width 0) (type default)) (uuid "d6a65400-726e-4225-b34f-ad24e5a44b71"))
+(label "SERVO1_PWM" (at 96.5200 80.0100 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "a10a8ba0-e711-4773-91dd-56cd72179517"))
+(wire (pts (xy 96.5200 83.8200) (xy 115.5700 83.8200)) (stroke (width 0) (type default)) (uuid "6d3c1545-fa1e-46d5-904c-c904a150d368"))
+(label "SERVO2_PWM" (at 96.5200 83.8200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "cae2e74e-cb45-41ef-a129-7d4623a6eaff"))
+(wire (pts (xy 96.52 87.63) (xy 115.57 87.63)) (stroke (width 0) (type default)) (uuid "1c361ba8-18b2-42cd-9d37-89366bdf936c"))
+(label "SENSOR1_LPn" (at 96.52 87.63 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "879097b3-1e72-4bad-91f7-26f7a2204b84"))
+(wire (pts (xy 96.5200 102.8700) (xy 115.5700 102.8700)) (stroke (width 0) (type default)) (uuid "265ce36a-d1f3-4126-8c88-c8ddc366ad2e"))
+(label "UART_TX" (at 96.5200 102.8700 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "dd3e531a-66dd-46f7-87e6-4397f290b8ed"))
+(wire (pts (xy 96.5200 95.2500) (xy 115.5700 95.2500)) (stroke (width 0) (type default)) (uuid "fcd5d787-c779-48c4-b37d-938ac765ab4e"))
+(label "I2C_SDA" (at 96.5200 95.2500 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "386a41cc-2bbe-46dd-84bc-12746c2c8d94"))
+(wire (pts (xy 96.5200 99.0600) (xy 115.5700 99.0600)) (stroke (width 0) (type default)) (uuid "cdd24768-a83d-4c7c-a680-b2ca36ede5ae"))
+(label "I2C_SCL" (at 96.5200 99.0600 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "0ab3ca61-ff80-4a7c-b757-b95450ad9e2a"))
+(wire (pts (xy 96.52 91.44) (xy 115.57 91.44)) (stroke (width 0) (type default)) (uuid "6a672414-7905-4429-84a8-bd8c54ddc9ff"))
+(label "SENSOR2_LPn" (at 96.52 91.44 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "971a528a-3858-4521-bab5-445ced820d70"))
+(no_connect (at 158.75 99.06) (uuid "c772aac4-7f96-4e60-aebd-54098bcb2f9e"))
+(wire (pts (xy 168.9100 102.8700) (xy 158.7500 102.8700)) (stroke (width 0) (type default)) (uuid "7dc7ad82-788a-4ec7-9a42-391c83f80a8d"))
+(label "UART_RX" (at 168.9100 102.8700 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "0877b227-b844-44c8-87fa-d047e0ab3d4a"))
+(no_connect (at 158.75 95.25) (uuid "624c6637-42f4-4183-8ca0-3c6ce9013b75"))
+(no_connect (at 158.75 91.44) (uuid "6a14c4e4-b85f-405f-983e-ed4cb1818529"))
+(wire (pts (xy 168.9100 87.6300) (xy 158.7500 87.6300)) (stroke (width 0) (type default)) (uuid "bc0b6af0-1b13-41d6-8fb7-aabe86ddfe20"))
+(label "+3V3" (at 168.9100 87.6300 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "e4e4deef-2e4b-46c3-8a0c-5c712c065b9f"))
+(wire (pts (xy 168.9100 83.8200) (xy 158.7500 83.8200)) (stroke (width 0) (type default)) (uuid "9313c8a9-90e1-42b5-8ba6-7a9cb4ea3ebb"))
+(label "GND" (at 168.9100 83.8200 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "4382d9b7-ac0b-4406-a40b-281bfff69f52"))
+(wire (pts (xy 168.91 80.01) (xy 158.75 80.01)) (stroke (width 0) (type default)) (uuid "ac8dfc44-d1aa-4e91-93a5-28952d1ab428"))
+(label "+5V_USB" (at 168.91 80.01 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "993b0085-6899-4da6-b7dd-b650cbd21981"))
+(text "SIDEEYE / SERVO + ToF WIRING" (at 43.18 22.86 0) (effects (font (size 2.54 2.54)) (justify left top)) (uuid "56575d8f-21ac-4346-8752-9853f7ebcec5"))
+(text "CONTROLLER: USB POWER" (at 111.76 50.8 0) (effects (font (size 1.524 1.524)) (justify left top)) (uuid "c1c7d1dd-9f36-4aa8-8eec-cea67c3c9e10"))
+(text "WIRING NOTES" (at 43.18 137.16 0) (effects (font (size 1.524 1.524)) (justify left top)) (uuid "a92943ee-4f29-4464-bbff-ec0a8bd662b1"))
+(text "1. U1 = XIAO ESP32-S3. J6 = Grove Vision AI V2 socket interface to Himax WiseEye2 HX6538.\n2. Fit a selective interposer / wire adapter: pass ONLY M1 pins 7, 8, 13, 14 to Grove.\n   Isolate M1 pins 1-6 and 9-12, especially D3 (Grove RESET) and 3V3 (separate regulators).\n   D0-D5 connect to peripherals on the XIAO side. This drawing requires that isolation.\n3. Sole power input: U1 USB-C. U1 pin 14 supplies +5V_USB to both servos and Grove M1.14.\n   U1 pin 12 supplies +3V3 to both ToF modules. All grounds common; PWM/UART logic is 3.3 V.\n   Verify USB source, cable and XIAO VBUS path for BOTH servo stall currents plus all electronics.\n   Check 3V3 regulator headroom for both sensors; use short servo power returns and local decoupling.\n4. D4/D5 form one shared I2C bus for J3/J4. Ensure SDA/SCL pullups to 3V3 on the modules;\n   account for parallel pullups. Start at 400 kHz. J1-J4 show signal names, not connector pin order.\n5. At boot drive both LPn low; raise sensor 1 LPn, set address to 0x2A, then raise sensor 2 (0x29).\n   Addresses above are 7-bit; ST API may use 0x54 / 0x52. Repeat after power loss.\n6. Use 3.3 V-compatible VL53L7CX modules with I2C_RST held low and INT unused (polling).\n   D6 TX -> WE2 PB6 RX; D7 RX <- WE2 PB7 TX. Select UART in the Grove firmware/host driver." (at 43.18 142.24 0) (effects (font (size 1.016 1.016)) (justify left top)) (uuid "30896ecd-4a75-4605-9a22-274def4558c9"))
+(text "D0 / GPIO1 = servo 1 PWM\nD1 / GPIO2 = servo 2 PWM\nD2 / GPIO3 = sensor 1 LPn\nD3 / GPIO4 = sensor 2 LPn\nD4 / GPIO5 = shared SDA\nD5 / GPIO6 = shared SCL\nD6 / GPIO43 = UART TX to WE2\nD7 / GPIO44 = UART RX from WE2" (at 200.66 113.03 0) (effects (font (size 1.016 1.016)) (justify left top)) (uuid "350a70c6-350c-4a48-a4a9-76d273365678"))
+(symbol (lib_id "SideEye_Wiring:Grove_Vision_AI_V2_UART") (at 142.24 27.94 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid "3d241503-8a43-4725-a9e7-4111a08b260f") (property "Reference" "J6" (at 163.83 22.86 0) (effects (font (size 1.27 1.27)))) (property "Value" "GROVE VISION AI V2 / UART" (at 163.83 25.4 0) (effects (font (size 1.016 1.016)))) (instances (project "sideeye" (path "/f5c2a4d7-5a15-4583-b1e5-94f0d73ba681" (reference "J6") (unit 1)))))
+(wire (pts (xy 121.92 31.75) (xy 137.16 31.75)) (stroke (width 0) (type default)) (uuid "28248b55-018c-4e0c-8518-48b6c88bff76"))
+(label "+5V_USB" (at 121.92 31.75 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "9854af75-6d73-4eca-9493-b8c94861a6b7"))
+(wire (pts (xy 121.92 35.56) (xy 137.16 35.56)) (stroke (width 0) (type default)) (uuid "b6517991-24fa-48b5-913e-800559ac4f37"))
+(label "GND" (at 121.92 35.56 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "fc7d233d-c8f3-4378-9177-a79a5ea64f0a"))
+(wire (pts (xy 121.92 39.37) (xy 137.16 39.37)) (stroke (width 0) (type default)) (uuid "c2626ac7-10e3-4bbd-ae9b-3c62c052c87c"))
+(label "UART_TX" (at 121.92 39.37 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "fe41d966-bfda-4278-9a47-833f729112ae"))
+(wire (pts (xy 121.92 43.18) (xy 137.16 43.18)) (stroke (width 0) (type default)) (uuid "5562ad59-0118-4acb-8515-d8f6f9970d4f"))
+(label "UART_RX" (at 121.92 43.18 0) (effects (font (size 1.016 1.016)) (justify left bottom)) (uuid "0f1a6ee3-dcb6-4005-adab-b232e93b5dfe"))
+
+(text "USB-C ON U1 = ONLY POWER INPUT\n5V USB -> U1 pin 14 -> servos + Grove\n3V3 regulator -> U1 pin 12 -> ToF x2" (at 43.18 109.22 0) (effects (font (size 1.016 1.016)) (justify left top)) (uuid "192b66eb-a1d8-4a5f-8ea2-42e0c87b5d1d"))
+)

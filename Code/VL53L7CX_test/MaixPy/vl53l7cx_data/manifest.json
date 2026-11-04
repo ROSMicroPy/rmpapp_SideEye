@@ -1,0 +1,18 @@
+{
+  "firmware.bin": {
+    "size": 86016,
+    "sha256": "c4befc0fe154bcea1f61ef595a3044526b3b98ca2244bc4c39c99883ca0c3b17"
+  },
+  "configuration.bin": {
+    "size": 972,
+    "sha256": "23607f5deebd6a287a2e43d59a077ff32a8fb18df69cd6c6e8d01f3504d1461c"
+  },
+  "xtalk.bin": {
+    "size": 776,
+    "sha256": "5278d26d8a6591b78abbc6f67cd07a8014d2379d93fb19eb4c49837768ac3d1a"
+  },
+  "nvm_cmd.bin": {
+    "size": 40,
+    "sha256": "dc5b7eb04c3938e5e718b8c8ce7cbac0e12b532d342891d1e9595fbeab302577"
+  }
+}

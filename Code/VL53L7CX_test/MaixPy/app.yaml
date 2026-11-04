@@ -1,0 +1,15 @@
+id: sideeye_vl53l7cx
+name: SideEye Depth Sensor
+version: 0.2.0
+icon: ""
+author: SideEye
+desc: VL53L7CX depth sensor with a React-compatible REST API
+files:
+  - main.py
+  - api.py
+  - config.py
+  - hardware.py
+  - vl53l7cx.py
+  - marble_detect
+  - vl53l7cx_data
+  - README.md
